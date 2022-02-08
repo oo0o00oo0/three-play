@@ -1,11 +1,17 @@
 import styled from "styled-components"
 import Div100vh from "react-div-100vh"
-import Scene from "./components/scenes/Scene"
+import Scene from "./create/touch-distance-morph/scenes/Scene"
+import Scroll from "./create/scroll-dynamics/components/Scroll"
+import PressMorphSpringScene from "./create/press-morph-spring/scene/PressMorphSpringScene"
+import ScrollX from "./create/x-scroll-dynamics/components/Scroll"
 
 function App() {
   return (
     <AppContainer>
-      <Scene />
+      {/* <Scene /> */}
+      {/* <PressMorphSpringScene /> */}
+      {/* <Scroll /> */}
+      <ScrollX />
     </AppContainer>
   )
 }
